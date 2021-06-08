@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+/* -------------------------- Colours -------------------------- */
+
+.bg-colour-name-title {
+    background-color: #676767;
+}
+
+.ui_menu_colour_home {
+    background-color: #e67e22;
+}
+
+.ui_menu_colour_resume {
+    background-color: #9b59b6;
+}
+
+.ui_menu_colour_contact {
+    background-color: #3498db;
+}
+
+.ui_menu_colour_download {
+    background-color: #525252;
+}
+
+/* -------------------------- Special paddings/margins/text -------------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general_sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+/* -------------------------- Heading -------------------------- */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/Martin.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menu_item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu_item a {
+    width: 100%;
+    color: #fff;
+    height: 120px;
+}
+
+.menu_item a span {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menu_item span + span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* -------------------------- Inline Lists -------------------------- */
+
+
+.list-inline {
+	padding-left: 0;
+	list-style: none
+}
+
+.list-inline-item {
+	display: inline-block
+}
+
+.list-inline-item:not(:last-child) {
+	margin: 0;
+}
+
+/* -------------------------- hover.css -------------------------- */
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/* -------------------------- footer -------------------------- */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+}
+
+.cv_pdf span {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+}
+
+.cv_pdf span:hover {
+    color: #e84610;
+}
+
+.social_links {
+    padding-bottom: 15px;
+
+}
+
+.social_links li a span {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+}
+
+.social_links li a span:hover {
+    background-color: #e84610;
+}
+
+#footer_details {
+    padding: 20px;
+}
