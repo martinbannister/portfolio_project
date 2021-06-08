@@ -14,6 +14,10 @@
     background-color: #f4f4f4;
 }
 
+.bg_colour_work_history {
+    background-color: #9b59b6;
+}
+
 .ui_menu_colour_home {
     background-color: #e67e22;
 }
@@ -63,11 +67,15 @@ h4 {
     float: none;
 }
 
-.section_heading {
+.history_heading, .section_heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* -------------------------- Heading -------------------------- */
@@ -227,4 +235,107 @@ footer {
 
 .three_reasons_heading {
     margin-bottom: 15px;
+}
+
+/* -------------------------- personal info -------------------------- */
+
+.personal_info_item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal_info_item .key, .personal_info_item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal_info_item .key p, .personal_info_item .value p {
+    margin: 0;
+}
+
+.personal_info_item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal_info_item .key p {
+    font-weight: 700;
+}
+
+.personal_info_item .value {
+    position: relative;
+    width: 60%;
+}
+
+/* -------------------------- skills -------------------------- */
+
+.progress {
+    position: relative;
+    height: 2.5rem;
+    margin-bottom: 4px;
+}
+
+.progress_type {
+    position: absolute;
+    left: 0px;
+    height: 2.5rem;
+    font-weight: 400;
+    padding: 1.2rem 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress_section {
+    margin: 40px 20px;
+}
+
+/* -------------------------- work history -------------------------- */
+
+.history_heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline_item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline_item > p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline_item::before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline_item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #fafafa;
+}
+
+.history_items {
+    margin-bottom: 30px;
 }

@@ -17,11 +17,12 @@
 </head>
 
 <body>
+    <!-- HEADER -->
     <header>
         <div class="row">
             <a class="col-md-4 logo" href="index.html"></a>
             <div class="col-md-8">
-                <div class="row .bg_colour_name_title">
+                <div class="row bg_colour_name_title">
                     <div class="col heading">
                         <h1 class="name">Martin Bannister</h1>
                         <h2 class="title">Full Stack Developer</h2>
@@ -52,9 +53,133 @@
             </div>
         </div>
     </header>
-    <section>
+    <!-- /HEADER -->
 
+    <!-- MAIN SECTION -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 bg_colour_work_history section_column">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="history_heading uppercase">
+                            Work History
+                        </h3>
+                    </div>
+                </div>
+                <div class="history_items">
+                    <div class="timeline_item" data-dates="02/1998 - 04/2004">
+                        <h4>National College of Art and Design (NCAD)</h4>
+                        <p>Sculptor in residence</p>
+                    </div>
+                    <div class="timeline_item" data-dates="04/2004 - 06/2008">
+                        <h4>Fisher and Diaz Funeral Directors</h4>
+                        <p>Junior Emblamer</p>
+                    </div>
+                    <div class="timeline_item" data-dates="06/2008 - 06/2011">
+                        <h4>Phantom Design Inc. Dublin</h4>
+                        <p>Junior Font End Developer</p>
+                    </div>
+                    <div class="timeline_item" data-dates="06-2011 - Present">
+                        <h4>Hooli Inc. Silicon Valley</h4>
+                        <p>Full Stack Web Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 bg_colour_three_reasons section_column">
+                <!--SKILLS COLUMN-->
+                <div class="row">
+                    <!--My Skills Heading Row-->
+                    <div class="col">
+                        <h3 class="section_heading uppercase">
+                            My Skills
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Skills Row-->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <span class="three_reasons_icon fas fa-desktop" aria-hidden="true"></span>
+
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three_reasons_heading uppercase">Front End</h4>
+                                <p>
+                                    I'm skilled in User Experience Design using HTML, CSS and Javascript
+                                    and have built front ends for add-ins for Google's suite of online tools
+                                    such as Docs and Sheets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <span class="three_reasons_icon fas fa-server" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three_reasons_heading uppercase">Backend</h4>
+                                <p>
+                                    Leveraging Google Sheets as a source of data I have developed
+                                    front end applications and add-ins that present, summarise and
+                                    interact with that data.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row progress_section">
+                    <!--PROGRESS BARS-->
+                    <div class="col">
+                        <!-- <div class="progress-group"> -->
+                        <div class="progress">
+                            <div class="progress-bar" style="width:90%" role="progressbar" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span class="sr-only">90% complete</span>
+                                <span class="progress_type">HTML / HTML 5</span> <!-- progress-group-label-->
+                            </div>
+                        </div>
+
+                        <!-- </div> -->
+                        <!-- <div class="progress-group"> -->
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width:80%" role="progressbar" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span class="sr-only">80% complete</span>
+                                <span class="progress_type">CSS / CSS 3</span> <!-- progress-group-label-->
+                            </div>
+                        </div>
+
+                        <!-- </div> -->
+                        <!-- <div class="progress-group"> -->
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" style="width:70%" role="progressbar"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <span class="sr-only">70% complete</span>
+                                <span class="progress_type">Javascript</span> <!-- progress-group-label-->
+                            </div>
+                        </div>
+
+                        <!-- </div> -->
+                        <!-- <div class="progress-group"> -->
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" style="width:70%" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span class="sr-only">70% complete</span>
+                                <span class="progress_type">Google Apps Script</span> <!-- progress-group-label-->
+                            </div>
+                        </div>
+
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- /MAIN SECTION -->
+
+    <!-- FOOTER -->
     <footer class="container-fluid">
         <div id="footer_details" class="row">
             <div class="col-sm-4">
@@ -116,6 +241,7 @@
             </div>
         </div>
     </footer>
+    <!-- /FOOTER -->
 
     <!-- halfmoon script -->
     <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
