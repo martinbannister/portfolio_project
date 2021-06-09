@@ -18,6 +18,10 @@
     background-color: #9b59b6;
 }
 
+.bg_colour_contact {
+    background-color: #fff;
+}
+
 .ui_menu_colour_home {
     background-color: #e67e22;
 }
@@ -338,4 +342,37 @@ footer {
 
 .history_items {
     margin-bottom: 30px;
+}
+
+/* -------------------------- contact form -------------------------- */
+
+.contact_heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.centre_form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* -------------------------- media queries -------------------------- */
+
+@media(min-width: 992px) {
+    .centre_form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
